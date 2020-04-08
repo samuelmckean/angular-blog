@@ -8,11 +8,11 @@ interface Blog {
 };
 
 @Component({
-  selector: 'app-blog',
-  templateUrl: './blog.component.html',
-  styleUrls: ['./blog.component.css']
+  selector: 'app-blog-list',
+  templateUrl: './blog-list.component.html',
+  styleUrls: ['./blog-list.component.css']
 })
-export class BlogComponent implements OnInit {
+export class BlogListComponent implements OnInit {
   blogs: Blog[] = [
     { 
       id: 0,
