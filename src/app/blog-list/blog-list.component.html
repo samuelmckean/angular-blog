@@ -1,5 +1,7 @@
 <div class = "blog-link-container" *ngFor="let blog of blogs; index as id">
-  <a class="blog-link" [title]="blog.title">
+  <a class="blog-link" 
+  [title]="blog.title"
+  [routerLink]="['/blogs', id]">
     <img [src]="'../assets/images/image' + blog.id + '.jfif'">
   </a>
 
