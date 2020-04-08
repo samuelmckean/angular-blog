@@ -1,5 +1,5 @@
-<div *ngFor="let blog of blogs; index as id">
-  <a [title]="blog.title">
+<div class = "blog-link-container" *ngFor="let blog of blogs; index as id">
+  <a class="blog-link" [title]="blog.title">
     <img [src]="'../assets/images/image' + blog.id + '.jfif'">
   </a>
 
