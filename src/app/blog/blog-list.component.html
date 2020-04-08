@@ -1,6 +1,6 @@
 <div *ngFor="let blog of blogs; index as id">
   <a [title]="blog.title">
-    <img>
+    <img [src]="'../assets/images/image' + blog.id + '.jfif'">
   </a>
 
 </div>
